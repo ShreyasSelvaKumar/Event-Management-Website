@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Forum&family=Kalnia&family=Poppins&family=Roboto+Condensed&display=swap');
+
+
+/****************************
+    Default Configurations
+****************************/
+
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FFE3BB;
+    font-family: Montserrat;
+}
+
+/****************************
+    CSS for Header Section
+****************************/
+
+header {
+    background: black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header .logo {
+    position: fixed;
+    top: 2px;
+    left: 10px;
+    font-family: 'Pacifico', cursive;
+    
+    
+}
+.logo{
+    position: absolute;
+   margin-top: -10px;
+   right: 10px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+
+header .logo a:hover {
+    background: none;
+}
+
+/****************************
+    CSS for Menu NavBar
+****************************/
+
+nav .menu-nav {
+    position: fixed;
+    right: 5px;
+    top: 13px;
+}
+
+nav .menu-nav li{
+    display: inline-block;
+    margin: 5px;
+}
+
+nav .menu-nav li a {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .3s ease-out;
+}
+
+nav .menu-nav li .active, a:hover {
+    background: White;
+    border-radius: 5px;
+}
+
+/****************************
+CSS for website Inro Section
+****************************/
+
+
+
+.websiteIntro {
+    background: url(../img/party.jpg) center center no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.BookIntro {
+    background: url(../img/Bit.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.BookIntro .container {
+    background: linear-gradient(to left, #ffc800b3, rgba(222, 190, 149, 0.7));
+    margin-top: 60px;
+    border-radius: 50%;
+    
+}
+
+
+.websiteIntro .container {
+    background: linear-gradient(to left, #ffc800b3, rgba(222, 190, 149, 0.7));
+    margin-top: 60px;
+    border-radius: 50%;
+    
+}
+
+.display-3{
+    color: Black;
+        
+}
+
+.display-4{
+    color: white;
+    font-weight: bold;
+}
+
+.col-md-6 p{
+    color: black;
+    font-size: 20px;
+}
+
+.h4{
+    color: #000008;
+}
+
+.col-md-6 {
+    font-weight: bold;
+    padding-top:20px ;
+    
+}
+.col-md-6 p{
+    padding-top: 50px;
+}
+
+
+
+
+/****************************
+CSS for website events Section
+****************************/
+
+.title{
+    color: rgb(241, 177, 57);
+ 
+
+}
+
+.container .title{
+    text-shadow: 3px 3px 8px rgb(247, 197, 104);
+    border-bottom: 5px solid ;
+    
+}
+
+.events .eventBox img {
+    height: 324px;
+    width: 100%;
+}
+
+.events .eventBox {
+    border-radius: 10px;
+    background:linear-gradient(to left, #f1be04b3, rgba(247, 211, 165, 0.7));
+    
+
+}
+
+.events .eventBox h1 {
+    border-bottom: 5px solid orange;
+}
+
+/************************************
+Contact us
+************************************/
+
+.conevent{
+   
+    text-align: center;
+    font-weight: bold;
+    background:linear-gradient(to left, #f1be04b3, rgba(247, 211, 165, 0.7));
+    height: 500px;
+    width: auto;
+    margin: 70px auto;
+}
+
+.conevent  h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+.Contactform 
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin: 20px ;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    outline: none;
+}
+
+.input-area{
+    height: 150px;
+    width: 31%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.formbutton{
+    font-weight: bold;
+    border-radius: 10px;
+    color: orange;
+    margin-right: 25%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+/************************************
+About Us CSS
+************************************/
+
+.contact_form {
+    padding: 5px;
+}
+
+.events h3{
+    font: bold ;
+}         
+
+.contact_form input {
+    width: 50%;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.contact_form textarea {
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+}
+
+.bg-dark{
+    color: orange;
+}
+
+.events .eventBox h1{
+    background-color: black;
+}
+/************************************
+Register CSS
+************************************/
+
+.register_form input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 60%;
+    margin: 10px;
+}
+
+.login_form input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 50%;
+    margin: 10px;
+}
+
+/***************************************
+Youtube Live CSS
+***************************************/
+
+.Youtube_form input{
+    padding: 5px;
+}
+.Youtube_form input {
+    width: 50%;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.Youtube_form textarea {
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+}
+
+.bg-black{
+    color: orange;
+}
+
+
+/***************************************
+Logind CSS
+***************************************/
+
+.pass{
+    font-weight: bold;
+    border-radius: 10px;
+    color: orange;
+    margin-left: 25%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+.loginbutton{
+
+    font-weight: bold;
+    border-radius: 10px;
+    color: orange;
+    margin-right: 25%;
+    margin-top: -40px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+
+
+
+/***************************************
+Admin Dashboard CSS
+***************************************/
+
+.adminDashboard {
+    margin-top: 80px;
+}
+
+
+
+/****************************
+CSS for footer
+****************************/
+footer{
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, #ac5f06f8, #f4be40);
+    color: #fff;
+    padding: 50px 0;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+
+
+.footerLogo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email
+{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 ;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+}
+ form input{
+    width: 100%;
+    background: transparent;
+    color: black;
+    border: 0;
+    outline: none;
+ }
+
+ form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+ }
+
+ form button .fa-arrow-right{
+    font-size: 16px;
+    color: white;
+ }
+
+ 
+
+ .social .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+ }
+
+
+ /****************************
+CSS for SearchIT
+****************************/
+
+.SearchIntro {
+    background: url(../img/Res.jpg) center  no-repeat ;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.SearchIntro .container {
+    background: linear-gradient(to left, #ffc800b3, rgba(222, 190, 149, 0.7));
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.TechIntro {
+    background: url(../img/technical.jpeg) center  no-repeat ;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.TechIntro .container {
+    background: linear-gradient(to left, #ffa200b3, rgba(244, 200, 142, 0.7));
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+
+.CodeIntro {
+    background: url(../img/language.jpg) center  no-repeat ;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.CodeIntro  .container {
+    background: linear-gradient(to left, #ffa200b3, rgba(244, 200, 142, 0.7));
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
